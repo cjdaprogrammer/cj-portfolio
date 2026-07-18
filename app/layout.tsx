@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
 import "./globals.css";
+import ThemeProvider from "@/components/ThemeProvider";
 
-export const metadata: Metadata = {
-  title: "Clark James De Luna | Web Developer Portfolio",
-  description: "Portfolio of Clark James De Luna, IT Graduate and Web Developer.",
+export const metadata = {
+  title: "Clark James De Luna",
+  description: "Personal Portfolio",
 };
 
 export default function RootLayout({
@@ -12,8 +12,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body>
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   );
 }
