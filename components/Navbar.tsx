@@ -2,7 +2,11 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import {
+  FaBars,
+  FaTimes,
+  FaGithub,
+} from "react-icons/fa";
 import ThemeToggle from "./ThemeToggle";
 
 const navLinks = [
@@ -22,7 +26,6 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
         {/* Logo */}
-
         <Link
           href="/"
           className="text-2xl font-black tracking-wide text-cyan-400"
@@ -31,9 +34,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Menu */}
-
-        <div className="hidden items-center gap-8 lg:flex">
-
+        <div className="hidden lg:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
               key={link.name}
@@ -43,12 +44,10 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-
         </div>
 
         {/* Right Side */}
-
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden lg:flex items-center gap-3">
 
           <ThemeToggle />
 
@@ -65,36 +64,30 @@ export default function Navbar() {
             href="https://github.com/cjdaprogrammer"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-xl bg-cyan-400 p-3 text-slate-900 transition hover:bg-cyan-300"
+            className="flex items-center justify-center rounded-xl bg-cyan-400 p-3 text-slate-900 transition hover:bg-cyan-300"
           >
-            GitHub
+            <FaGithub size={20} />
           </a>
 
         </div>
 
         {/* Mobile Button */}
-
         <button
           onClick={() => setOpen(!open)}
-          className="lg:hidden"
+          className="lg:hidden text-white"
         >
-          {open ? (
-            <X className="text-white" size={28} />
-          ) : (
-            <Menu className="text-white" size={28} />
-          )}
+          {open ? <FaTimes size={28} /> : <FaBars size={28} />}
         </button>
+
       </nav>
 
       {/* Mobile Menu */}
-
       {open && (
         <div className="border-t border-white/10 bg-slate-950 lg:hidden">
 
           <div className="flex flex-col gap-4 p-6">
 
             {navLinks.map((link) => (
-
               <a
                 key={link.name}
                 href={link.href}
@@ -103,7 +96,6 @@ export default function Navbar() {
               >
                 {link.name}
               </a>
-
             ))}
 
             <ThemeToggle />
@@ -121,8 +113,9 @@ export default function Navbar() {
               href="https://github.com/cjdaprogrammer"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-xl border border-slate-700 px-5 py-3 text-center text-white"
+              className="flex items-center justify-center gap-2 rounded-xl border border-slate-700 px-5 py-3 text-white"
             >
+              <FaGithub size={20} />
               GitHub
             </a>
 
