@@ -68,7 +68,7 @@ const projects = [
       "Tailwind",
       "PostgreSQL",
     ],
-    live: "https://your-clinic-project.vercel.app",
+    live: "https://clinic-system-lelk.vercel.app/",
     github: "https://github.com/cjdaprogrammer",
   },
 
