@@ -61,7 +61,7 @@ const projects = [
     title: "Clinic Health Monitoring System",
     description:
       "QR-powered health monitoring platform for students and employees with reports, appointment scheduling, analytics, and health records.",
-    image: "/projects/clinic.png",
+    image: "/projects/Healthclinicsystem.png",
     technologies: [
       "Next.js",
       "Supabase",
