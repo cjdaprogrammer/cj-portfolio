@@ -18,6 +18,7 @@ const skills = [
   "Tailwind CSS",
   "React",
   "Next.js",
+  "React Native",
   "Python",
   "Java",
   "Supabase",
@@ -25,6 +26,7 @@ const skills = [
   "TensorFlow",
   "Git",
   "GitHub",
+  "Jira",
   "Data Analytics",
   "Artificial Intelligence",
 ];
@@ -61,7 +63,7 @@ const projects = [
     title: "Clinic Health Monitoring System",
     description:
       "QR-powered health monitoring platform for students and employees with reports, appointment scheduling, analytics, and health records.",
-    image: "/projects/Healthclinic.png",
+    image: "/Healthclinic.png",
     technologies: [
       "Next.js",
       "Supabase",
@@ -76,14 +78,14 @@ const projects = [
     title: "Alayna Zuri AI Facial Analysis System",
     description:
       "Inventory Management System integrated with AI Facial Analysis, dashboards, reports, authentication, and predictive analytics.",
-    image: "/projects/alayna.png",
+    image: "/Alayna.png",
     technologies: [
       "TensorFlow",
       "Next.js",
       "Supabase",
       "Tailwind",
     ],
-    live: "https://your-alayna-project.vercel.app",
+    live: "https://your-alayna-project.app",
     github: "https://github.com/cjdaprogrammer",
   },
 
