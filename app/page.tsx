@@ -61,7 +61,7 @@ const projects = [
     title: "Clinic Health Monitoring System",
     description:
       "QR-powered health monitoring platform for students and employees with reports, appointment scheduling, analytics, and health records.",
-    image: "/projects/Healthclinicsystem.png",
+    image: "/projects/Healthclinic.png",
     technologies: [
       "Next.js",
       "Supabase",
@@ -88,13 +88,12 @@ const projects = [
   },
 
   {
-    title: "Coffee Shop E-Commerce",
+    title: "Nexus Personal OS",
     description:
-      "Modern e-commerce platform with product catalog, order tracking, inventory management, and responsive design.",
-    image: "/projects/coffee.png",
+      "Personalized Operating System with AI-powered features, including a virtual assistant, task management, and productivity tools.",
+    image: "/Nexus.png",
     technologies: [
       "Next.js",
-      "PostgreSQL",
       "Tailwind",
     ],
     live: "https://your-coffee-project.vercel.app",
