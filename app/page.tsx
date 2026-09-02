@@ -68,7 +68,7 @@ const projects = [
       "Next.js",
       "Supabase",
       "Tailwind",
-      "PostgreSQL",
+
     ],
     live: "https://clinic-system-lelk.vercel.app/",
     github: "https://github.com/cjdaprogrammer",
@@ -81,9 +81,9 @@ const projects = [
     image: "/Alayna.png",
     technologies: [
       "TensorFlow",
-      "Next.js",
-      "Supabase",
-      "Tailwind",
+      "Django",
+      "Python",
+      "CSS3",
     ],
     live: "https://your-alayna-project.app",
     github: "https://github.com/cjdaprogrammer",
