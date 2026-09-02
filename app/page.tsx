@@ -733,11 +733,11 @@ export default function Home() {
               <ul className="mt-6 space-y-4 text-slate-300">
 
                 <li>
-                  ✔ Developed a QR-powered Health Monitoring System.
+                  ✔ Developed an Automated Health Monitoring System.
                 </li>
 
                 <li>
-                  ✔ Managed employee and student health records.
+                  ✔ Managed Employee and Student Health Records.
                 </li>
 
                 <li>
@@ -800,13 +800,8 @@ export default function Home() {
                 "HTML",
                 "CSS",
                 "React",
-                "Java",
-                "C++",
-                "Jira",
-                "Docker",
-                "Git",
                 "GitHub",
-                "Microsoft Office",
+                "Microsoft Excel",
                 "Records Management",
                 "Data Analytics",
                 
@@ -900,7 +895,7 @@ export default function Home() {
                 <div className="rounded-3xl border border-slate-800 bg-slate-900 p-8">
 
                   <h3 className="text-2xl font-bold text-cyan-400">
-                    STEM
+                    Science, Technology, Engineering, and Mathematics (STEM) Strand 
                   </h3>
 
                   <p className="mt-3 text-slate-300">
