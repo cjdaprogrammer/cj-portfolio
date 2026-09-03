@@ -62,7 +62,7 @@ const projects = [
   {
     title: "Clinic Health Monitoring System",
     description:
-      "QR-powered health monitoring platform for students and employees with reports, appointment scheduling, analytics, and health records.",
+      "Automated health monitoring platform for students and employees with reports, analytics, and health records.",
     image: "/HealthClinic.png",
     technologies: [
       "Next.js",
