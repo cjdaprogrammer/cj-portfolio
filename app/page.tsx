@@ -98,7 +98,7 @@ const projects = [
       "Next.js",
       "Tailwind",
     ],
-    live: "https://your-coffee-project.vercel.app",
+    live: "https://nexus-personalos.vercel.app/",
     github: "https://github.com/cjdaprogrammer",
   },
 ];
