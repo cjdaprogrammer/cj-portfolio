@@ -29,6 +29,7 @@ const skills = [
   "Jira",
   "Data Analytics",
   "Artificial Intelligence",
+  "Machine Learning",
 ];
 
 const services = [
@@ -189,7 +190,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="/RESUME_DELUNA_CLARKJAMES.pdf"
+                  href="/DELUNA_CLARKJAMES_RESUME.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 rounded-xl border border-cyan-400 px-8 py-4 font-bold text-cyan-400 transition hover:bg-cyan-400 hover:text-slate-900"
@@ -1231,7 +1232,7 @@ export default function Home() {
             </a>
 
             <a
-              href="/RESUME_DELUNA_CLARKJAMES.pdf"
+              href="/DELUNA_CLARKJAMES_RESUME.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 rounded-xl border border-cyan-400 px-8 py-4 font-bold text-cyan-400 transition hover:bg-cyan-400 hover:text-slate-900"
