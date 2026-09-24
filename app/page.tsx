@@ -234,7 +234,7 @@ export default function Home() {
 
                     <h2 className="text-3xl font-bold">
 
-                      Clark James E. De Luna
+                      Clark James De Luna
 
                     </h2>
 
